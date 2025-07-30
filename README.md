@@ -13,6 +13,7 @@ KUSANAGI - 34 key, unibody split, wireless (handwired) keyboard.
 * Power switch and reset button
 * Status LEDs
 
+
 # BOM
 | Item                                                                                        | Quantity | Remarks                              |
 | ------------------------------------------------------------------------------------------- | -------- | ------------------------------------ |
@@ -24,7 +25,34 @@ KUSANAGI - 34 key, unibody split, wireless (handwired) keyboard.
 | [Li Po Batteries](https://aliexpress.ru/item/4001349688917.html?sku_id=10000015768532597)   | 2        | 250mAh 502030                        |
 | [Power switches](https://aliexpress.ru/item/1005004680230957.html?sku_id=12000030078239914) | 1        | BSI-10H                              |
 | [Reset buttons](https://aliexpress.ru/item/1005005826296317.html?sku_id=12000034489516408)  | 1        | 4.5x4.5x6mm                          |
+| [LEDs](https://aliexpress.ru/item/1005003778705531.html?sku_id=12000027135930105)           | 3        | 1.8mm                                |
+| [Resistors](https://aliexpress.ru/item/1005001794439592.html?sku_id=12000017600406493)      | 3        | 1kΩ> [?](https://github.com/aroum/kabarga?tab=readme-ov-file#resistors)|
 | [Wires](https://aliexpress.ru/item/1005005321856209.html?sku_id=12000041482104474)          | -        | UL1423 PTFE 28AWG                    |
 | [Standoffs](https://aliexpress.ru/item/32968906213.html?sku_id=66671516824)                 | 14       | m2x5                                 |
 | [Screws](https://aliexpress.ru/item/1005004494509456.html?sku_id=12000029356038184)         | 14       | m2x5                                 |
 | [Bumpons](https://aliexpress.ru/item/1005004784336863.html?sku_id=12000030475295974)        | 13       | 5x2mm                                |
+
+
+# Firmware
+## Bootloader
+For full status LEDs functionallity you need to use custom [bootloader](https://github.com/eztrow/kusanagi).
+Thanks to [aroum](https://github.com/aroum/nRF52_Bootloader_custom_LED) for make this happen.
+
+## ZMK Config
+Available [here](https://github.com/eztrow/zmk-kusanagi).
+
+
+# Printing
+...
+
+
+# Assembly
+...
+
+
+# Routing
+...
+
+
+# License
+...
