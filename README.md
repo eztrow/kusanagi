@@ -35,7 +35,7 @@ KUSANAGI - 34 key, unibody split, wireless (handwired) keyboard.
 
 # Firmware
 ## Bootloader
-For full status LEDs functionallity you need to use custom [bootloader](https://github.com/eztrow/kusanagi).
+For full status LEDs functionality you need to use custom [bootloader](https://github.com/eztrow/kusanagi).
 Thanks to [aroum](https://github.com/aroum/nRF52_Bootloader_custom_LED) for make this happen.
 
 ## ZMK Config
